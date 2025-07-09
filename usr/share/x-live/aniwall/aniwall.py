@@ -149,6 +149,9 @@ class AnimatedWallpaperApp:
         for line in xrandr_output.splitlines():
             if " connected primary" in line:
                 return f"monitor{line.split()[0]}"
+        for line in xrandr_output.splitlines():
+            if " connected" in line:
+                return f"monitor{line.split()[0]}"
         return None
 
     def get_active_workspace(self):
