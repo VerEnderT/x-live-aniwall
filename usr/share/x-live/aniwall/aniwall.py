@@ -13,8 +13,7 @@ class AnimatedWallpaperApp:
     def __init__(self):
 
         self.app = QApplication([])
-        self.tray_icon = QSystemTrayIcon(QIcon("icon.png"), self.app)
-
+        self.tray_icon = QSystemTrayIcon(QIcon("/usr/share/x-live/aniwall/icon.png"), self.app)
         self.infowidget = QWidget()
         self.infowidget.move(240,320)
         #self.infowidget.setFixedSize(0,0)
