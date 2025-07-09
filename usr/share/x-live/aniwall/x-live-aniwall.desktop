@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=AniWall
+Name[de]=AniWall
+Comment=Animated wallpaper tool for XFCE
+Comment[de]=Werkzeug für animierte Hintergrundbilder unter XFCE
+GenericName=Animated Wallpaper
+GenericName[de]=Animierter Hintergrund
+Exec=x-live-aniwall
+Icon=x-live-aniwall
+Terminal=false
+Type=Application
+Categories=Utility;X-Live-Apps;
+StartupNotify=false

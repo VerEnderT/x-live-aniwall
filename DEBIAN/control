@@ -1,0 +1,18 @@
+Package: x-live-aniwall
+Version: 0.1.0
+Depends: python3, python3-pyqt5, ffmpeg, wmctrl, xfconf
+Architecture: all
+Maintainer: F. Maczollek aka VerEnderT <chaosz932@gmail.com>
+Homepage: https://verendert.de
+Vcs-Git: https://github.com/VerEnderT/x-live-aniwall.git
+Vcs-Browser: https://github.com/VerEnderT/x-live-aniwall
+Section: utils
+Priority: optional
+Description: Tool zur Anzeige animierter Hintergründe unter XFCE
+ AniWall ist ein einfaches grafisches Werkzeug, um animierte Videos als
+ Hintergrundbild unter XFCE zu verwenden. Die Anwendung läuft unauffällig im
+ Hintergrund mit einem Tray-Icon zur Steuerung, Auswahl und Verwaltung.
+ English:
+ AniWall is a simple graphical tool to display animated video wallpapers
+ under XFCE. It runs silently in the background and provides a tray icon
+ for easy control and selection of video wallpapers.
